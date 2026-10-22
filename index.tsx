@@ -2,11 +2,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import * as XLSX from 'xlsx';
 import { installDemoApi } from './demoApi';
 
-// Make XLSX available globally for the components that might use it
-(window as any).XLSX = XLSX;
 installDemoApi();
 
 
