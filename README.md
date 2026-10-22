@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Datos en Vivo
 
-# Run and deploy your AI Studio app
+Prototipo de dashboard para consultar métricas operativas de sedes, servicios,
+agentes, tiempos de espera y atención.
 
-This contains everything you need to run your app locally.
+## Ejecutar localmente
 
-View your app in AI Studio: https://ai.studio/apps/drive/17rtW3X334UAx940EwQZL4dgEFL4SFmDw
+Requisitos: Node.js y pnpm.
 
-## Run Locally
+```bash
+pnpm install
+pnpm dev
+```
 
-**Prerequisites:**  Node.js
+El prototipo funciona en modo demostración para publicarse sin exponer la IP
+privada del servidor. Credenciales de demostración: `admin` / `admin123`.
 
+## Generar la versión de producción
 
-1. Install dependencies:
-   `pnpm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `pnpm dev`
+```bash
+pnpm build
+```
+
+La carpeta de salida es `dist/`.
