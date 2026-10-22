@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+bigquery_credentials.json
+*.pem
+*.key
+*.bak
+*.bak.*
+*.remote
+*-check.mjs
+
