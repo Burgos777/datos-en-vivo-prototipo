@@ -12,8 +12,8 @@ pnpm install
 pnpm dev
 ```
 
-El prototipo funciona en modo demostración para publicarse sin exponer la IP
-privada del servidor. Credenciales de demostración: `admin` / `admin123`.
+El prototipo funciona en modo demostración. Credenciales de demostración:
+`admin` / `admin123`.
 
 ## Generar la versión de producción
 
